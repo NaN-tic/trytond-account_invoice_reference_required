@@ -1,0 +1,7 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "model:ir.message,text:msg_no_reference_found"
+msgid "The invoice \"%(invoice)s\" dont have reference."
+msgstr "La factura \"%(invoice)s\" no tiene referencia."
