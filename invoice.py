@@ -19,7 +19,7 @@ class Invoice(metaclass=PoolMeta):
         for invoice in invoices:
             if invoice.type != 'in':
                 continue
-            if not invoice.reference or invoice.reference == '':
+            if not invoice.reference:
                 warning_key = Warning.format('invoice_no_reference', [invoice])
 
                 if Warning.check(warning_key):
