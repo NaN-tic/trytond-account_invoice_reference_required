@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tryton>
+    <data grouped="1">
+        <record model="ir.message" id="msg_no_reference_found">
+            <field name="text">The invoice "%(invoice)s" dont have reference.</field>
+            <field name="text">Are you sure you want to post invoice "%(invoice)s" with no Reference?</field>
+        </record>
+    </data>
+</tryton>
